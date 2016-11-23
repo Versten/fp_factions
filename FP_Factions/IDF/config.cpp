@@ -732,8 +732,8 @@ class cfgvehicles
 		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
-		linkedItems[] = {"FP_Carrier_GreenPatchless","IDF_Helmet_Mitsnefet_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_Carrier_GreenPatchless","IDF_Helmet_Mitsnefet_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_Carrier_CoyotePatchless","IDF_Helmet_Mitsnefet_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_Carrier_CoyotePatchless","IDF_Helmet_Mitsnefet_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
 	class FP_Faction_IDF_Rifleman: FP_Faction_IDF_Soldier_BASE
 	{
@@ -770,8 +770,8 @@ class cfgvehicles
 		cost = 95000;
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";
-		linkedItems[] = {"FP_Carrier_GreenPatchless","IDF_Helmet_Mitsnefet_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_Carrier_GreenPatchless","IDF_Helmet_Mitsnefet_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_Carrier_CoyotePatchless","IDF_Helmet_Mitsnefet_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_Carrier_CoyotePatchless","IDF_Helmet_Mitsnefet_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"IDF_Helmet_Mitsnefet_2","IDF_Helmet_Mitsnefet_1"};
 	};
@@ -795,14 +795,14 @@ class cfgvehicles
 		displayName = "Squad Leader";
 		weapons[] = {"arifle_TRG21_GL_F_IDF","RH_g17","Throw","Put","Binocular"};
 		respawnWeapons[] = {"arifle_TRG21_GL_F_IDF","RH_g17","Throw","Put","Binocular"};
-		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","FH_L5_30Rnd_556x45_Tracer","RH_17Rnd_9x19_g17","RH_17Rnd_9x19_g17","RH_17Rnd_9x19_g17","HandGrenade","HandGrenade","O_IR_Grenade","O_IR_Grenade","SmokeShell","SmokeShellRed","SmokeShellOrange","SmokeShellYellow","Chemlight_red","Chemlight_red"};
-		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","FH_L5_30Rnd_556x45_Tracer","RH_17Rnd_9x19_g17","RH_17Rnd_9x19_g17","RH_17Rnd_9x19_g17","HandGrenade","HandGrenade","O_IR_Grenade","O_IR_Grenade","SmokeShell","SmokeShellRed","SmokeShellOrange","SmokeShellYellow","Chemlight_red","Chemlight_red"};
+		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","RH_17Rnd_9x19_g17","RH_17Rnd_9x19_g17","RH_17Rnd_9x19_g17","HandGrenade","HandGrenade","O_IR_Grenade","O_IR_Grenade","SmokeShell","SmokeShellRed","SmokeShellOrange","SmokeShellYellow","Chemlight_red","Chemlight_red"};
+		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","RH_17Rnd_9x19_g17","RH_17Rnd_9x19_g17","RH_17Rnd_9x19_g17","HandGrenade","HandGrenade","O_IR_Grenade","O_IR_Grenade","SmokeShell","SmokeShellRed","SmokeShellOrange","SmokeShellYellow","Chemlight_red","Chemlight_red"};
 		cost = 500000;
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"FP_Carrier_GreenPatchless","IDF_Helmet_Mitsnefet_2","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_Carrier_GreenPatchless","IDF_Helmet_Mitsnefet_2","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_Carrier_CoyotePatchless","IDF_Helmet_Mitsnefet_2","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_Carrier_CoyotePatchless","IDF_Helmet_Mitsnefet_2","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		identitytypes[] = {"LanguageENG_F", "Head_NATO", "G_NATO_default"};
 		headgearProbability = 80;
 		allowedHeadgear[] = {"IDF_Helmet_Mitsnefet_2","IDF_Helmet_Mitsnefet_1"};
@@ -821,8 +821,8 @@ class cfgvehicles
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"FP_Carrier_GreenPatchless","IDF_Helmet_Mitsnefet_2","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_Carrier_GreenPatchless","IDF_Helmet_Mitsnefet_2","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_Carrier_CoyotePatchless","IDF_Helmet_Mitsnefet_2","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_Carrier_CoyotePatchless","IDF_Helmet_Mitsnefet_2","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 90;
 		allowedHeadgear[] = {"IDF_Helmet_Mitsnefet_2","IDF_Helmet_Mitsnefet_1"};
 	};
@@ -848,8 +848,8 @@ class cfgvehicles
 		magazines[] = {"20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","RH_17Rnd_9x19_g17","RH_17Rnd_9x19_g17","RH_17Rnd_9x19_g17","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","RH_17Rnd_9x19_g17","RH_17Rnd_9x19_g17","RH_17Rnd_9x19_g17","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		cost = 150000;
-		linkedItems[] = {"FP_Carrier_GreenPatchless","IDF_Helmet_Mitsnefet_2","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_Carrier_GreenPatchless","IDF_Helmet_Mitsnefet_2","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_Carrier_CoyotePatchless","IDF_Helmet_Mitsnefet_2","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_Carrier_CoyotePatchless","IDF_Helmet_Mitsnefet_2","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		sensitivity = 3;
 		headgearProbability = 60;
 		allowedHeadgear[] = {"IDF_Helmet_Mitsnefet_2","IDF_Helmet_Mitsnefet_1"};
@@ -900,10 +900,10 @@ class cfgvehicles
 		scopeCurator = 2;
 		displayName = "Medic";
 		attendant = 1;
-		weapons[] = {"RH_m4_IDF","Throw","Put"};
-		respawnWeapons[] = {"RH_m4_IDF","Throw","Put"};
-		magazines[] = {"RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","SmokeShell","SmokeShellRed"};
-		respawnMagazines[] = {"RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","SmokeShell","SmokeShellRed"};
+		weapons[] = {"rhs_weap_m4_carryhandle_IDF","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_m4_carryhandle_IDF","Throw","Put"};
+		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
+		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
 		backpack = "B_FieldPack_cbr_Medic";
 		cost = 300000;
 		camouflage = 1.6;
@@ -925,8 +925,8 @@ class cfgvehicles
 		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","RH_17Rnd_9x19_g17","RH_17Rnd_9x19_g17","RH_17Rnd_9x19_g17","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		camouflage = 1.6;
 		sensitivity = 2.4;
-		linkedItems[] = {"FP_Carrier_GreenPatchless","H_HelmetCrew_I","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_Carrier_GreenPatchless","H_HelmetCrew_I","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_Carrier_CoyotePatchless","H_HelmetCrew_I","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_Carrier_CoyotePatchless","H_HelmetCrew_I","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		cost = 90000;
 		headgearProbability = 100;
 		allowedHeadgear[] = {"H_HelmetCrew_I"};
@@ -941,10 +941,10 @@ class cfgvehicles
 		camouflage = 1.6;
 		sensitivity = 2.4;
 		backpack = "B_Carryall_cbr_Eng_IDF";
-		weapons[] = {"RH_m4_IDF","Throw","Put"};
-		respawnWeapons[] = {"RH_m4_IDF","Throw","Put"};
-		magazines[] = {"RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","SmokeShell","SmokeShellRed"};
-		respawnMagazines[] = {"RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","SmokeShell","SmokeShellRed"};
+		weapons[] = {"rhs_weap_m4_carryhandle_IDF","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_m4_carryhandle_IDF","Throw","Put"};
+		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
+		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
 		canDeactivateMines = 1;
 		engineer = 1;
 		detectSkill = 60;
@@ -979,8 +979,8 @@ class cfgvehicles
 		threat[] = {1,0.1,0.3};
 		backpack = "B_FieldPack_khk_MMG_IDF";
 		icon = "iconManMG";
-		linkedItems[] = {"FP_Carrier_GreenPatchless","IDF_Helmet_Mitsnefet_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_Carrier_GreenPatchless","IDF_Helmet_Mitsnefet_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_Carrier_CoyotePatchless","IDF_Helmet_Mitsnefet_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_Carrier_CoyotePatchless","IDF_Helmet_Mitsnefet_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"IDF_Helmet_Mitsnefet_2","IDF_Helmet_Mitsnefet_1"};
 	};
@@ -991,10 +991,10 @@ class cfgvehicles
 		scopeCurator = 2;
 		displayName = "MMG Assistant";
 		backpack = "B_FieldPack_khk_MMG_IDF";
-		weapons[] = {"RH_m4_IDF","Throw","Put"};
-		respawnWeapons[] = {"RH_m4_IDF","Throw","Put"};
-		magazines[] = {"RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","SmokeShell","SmokeShellRed"};
-		respawnMagazines[] = {"RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","SmokeShell","SmokeShellRed"};
+		weapons[] = {"rhs_weap_m4_carryhandle_IDF","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_m4_carryhandle_IDF","Throw","Put"};
+		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
+		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"IDF_Helmet_Mitsnefet_2","IDF_Helmet_Mitsnefet_1"};
 		cost = 65000;
@@ -1018,10 +1018,10 @@ class cfgvehicles
 		scopeCurator = 2;
 		displayName = "MAT Gunner";
 		backpack = "B_FieldPack_khk_MAT_IDF";
-		weapons[] = {"RH_m4_IDF","launch_B_Titan_short_F","Throw","Put"};
-		respawnWeapons[] = {"RH_m4_IDF","launch_B_Titan_short_F","Throw","Put"};
-		magazines[] = {"RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","SmokeShell","SmokeShellRed"};
-		respawnMagazines[] = {"RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","SmokeShell","SmokeShellRed"};
+		weapons[] = {"rhs_weap_m4_carryhandle_IDF","launch_B_Titan_short_F","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_m4_carryhandle_IDF","launch_B_Titan_short_F","Throw","Put"};
+		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
+		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
 		cost = 180000;
 		threat[] = {1,0.7,0.3};
 		secondaryAmmoCoef = 0.5;
@@ -1036,10 +1036,10 @@ class cfgvehicles
 		scopeCurator = 2;
 		displayName = "MAT Assistant";
 		backpack = "B_FieldPack_khk_MAT_IDF";
-		weapons[] = {"RH_m4_IDF","Throw","Put"};
-		respawnWeapons[] = {"RH_m4_IDF","Throw","Put"};
-		magazines[] = {"RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","SmokeShell","SmokeShellRed"};
-		respawnMagazines[] = {"RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","SmokeShell","SmokeShellRed"};
+		weapons[] = {"rhs_weap_m4_carryhandle_IDF","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_m4_carryhandle_IDF","Throw","Put"};
+		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
+		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"IDF_Helmet_Mitsnefet_2","IDF_Helmet_Mitsnefet_1"};
 		cost = 65000;
@@ -1063,10 +1063,10 @@ class cfgvehicles
 		scopeCurator = 2;
 		displayName = "MANPADS Gunner";
 		backpack = "B_FieldPack_cbr_MANPADS_IDF";
-		weapons[] = {"RH_m4_IDF","CUP_launch_FIM92Stinger","Throw","Put"};
-		respawnWeapons[] = {"RH_m4_IDF","CUP_launch_FIM92Stinger","Throw","Put"};
-		magazines[] = {"RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","SmokeShell","SmokeShellRed"};
-		respawnMagazines[] = {"RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","SmokeShell","SmokeShellRed"};
+		weapons[] = {"rhs_weap_m4_carryhandle_IDF","CUP_launch_FIM92Stinger","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_m4_carryhandle_IDF","CUP_launch_FIM92Stinger","Throw","Put"};
+		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
+		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
 		cost = 180000;
 		threat[] = {1,0.7,0.3};
 		secondaryAmmoCoef = 0.5;
@@ -1081,10 +1081,10 @@ class cfgvehicles
 		scopeCurator = 2;
 		displayName = "MANPADS Assistant";
 		backpack = "B_FieldPack_cbr_MANPADS_IDF";
-		weapons[] = {"RH_m4_IDF","Throw","Put"};
-		respawnWeapons[] = {"RH_m4_IDF","Throw","Put"};
-		magazines[] = {"RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","SmokeShell","SmokeShellRed"};
-		respawnMagazines[] = {"RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","SmokeShell","SmokeShellRed"};
+		weapons[] = {"rhs_weap_m4_carryhandle_IDF","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_m4_carryhandle_IDF","Throw","Put"};
+		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
+		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"IDF_Helmet_Mitsnefet_2","IDF_Helmet_Mitsnefet_1"};
 		cost = 65000;
@@ -1158,8 +1158,8 @@ class cfgWeapons
 			};
 		};
 	};
-	class RH_m4;
-	class RH_m4_IDF: RH_m4
+	class rhs_weap_m4_carryhandle;
+	class rhs_weap_m4_carryhandle_IDF: rhs_weap_m4_carryhandle
 	{
 		scope = 1;
 		class LinkedItems
@@ -1192,7 +1192,7 @@ class cfgWeapons
 		{
 			class LinkedItemsOptic
 			{
-				item = "RH_ta31rco";
+				item = "rhsusf_acc_ACOG3_3d";
 				slot = "CowsSlot";
 			};
 		};
